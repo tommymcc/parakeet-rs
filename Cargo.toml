@@ -67,10 +67,12 @@ required-features = ["cohere"]
 
 [dependencies]
 ort = { version = "=2.0.0-rc.15", default-features = false, features = ["std", "ndarray"], optional = true }
-# Pinned: src/burn_backend/generated is generated for this exact version.
+# Pinned: src/burn_backend/generated was generated for burn 0.22.0; on this
+# branch (tommymcc fork) the only change for 0.23 is attention's new `cache`
+# argument and option fields, passed as None and defaults.
 # Keep burn's default features, it is much slower without them.
-burn = { version = "=0.22.0", features = ["flex"], optional = true }
-burn-store = { version = "=0.22.0", default-features = false, features = ["std"], optional = true }
+burn = { version = "=0.23.0-pre.2", features = ["flex"], optional = true }
+burn-store = { version = "=0.23.0-pre.2", default-features = false, features = ["std"], optional = true }
 hound = "3.5"
 eyre = "0.6"
 ndarray = "0.17"

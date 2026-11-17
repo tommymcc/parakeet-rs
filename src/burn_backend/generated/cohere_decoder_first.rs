@@ -388,10 +388,12 @@ impl Submodule1 {
                 v,
                 Some(hide),
                 Some(score_bias),
+                None,
                 burn::tensor::ops::AttentionModuleOptions {
                     scale: Some(0.0883883461356163f64),
                     softcap: None,
                     is_causal: false,
+                    ..Default::default()
                 },
             );
             let attention1_out1 = {
@@ -619,10 +621,12 @@ impl Submodule2 {
                 v,
                 None,
                 None,
+                None,
                 burn::tensor::ops::AttentionModuleOptions {
                     scale: Some(0.0883883461356163f64),
                     softcap: None,
                     is_causal: false,
+                    ..Default::default()
                 },
             );
             (attention2_out1,)
@@ -702,10 +706,12 @@ impl Submodule2 {
                 v,
                 Some(hide),
                 Some(score_bias),
+                None,
                 burn::tensor::ops::AttentionModuleOptions {
                     scale: Some(0.0883883461356163f64),
                     softcap: None,
                     is_causal: false,
+                    ..Default::default()
                 },
             );
             let attention3_out1 = {
@@ -737,10 +743,12 @@ impl Submodule2 {
                 v,
                 None,
                 None,
+                None,
                 burn::tensor::ops::AttentionModuleOptions {
                     scale: Some(0.0883883461356163f64),
                     softcap: None,
                     is_causal: false,
+                    ..Default::default()
                 },
             );
             (attention4_out1,)
@@ -820,10 +828,12 @@ impl Submodule2 {
                 v,
                 Some(hide),
                 Some(score_bias),
+                None,
                 burn::tensor::ops::AttentionModuleOptions {
                     scale: Some(0.0883883461356163f64),
                     softcap: None,
                     is_causal: false,
+                    ..Default::default()
                 },
             );
             let attention5_out1 = {
@@ -1036,10 +1046,12 @@ impl Submodule3 {
                 v,
                 None,
                 None,
+                None,
                 burn::tensor::ops::AttentionModuleOptions {
                     scale: Some(0.0883883461356163f64),
                     softcap: None,
                     is_causal: false,
+                    ..Default::default()
                 },
             );
             (attention6_out1,)
@@ -1119,10 +1131,12 @@ impl Submodule3 {
                 v,
                 Some(hide),
                 Some(score_bias),
+                None,
                 burn::tensor::ops::AttentionModuleOptions {
                     scale: Some(0.0883883461356163f64),
                     softcap: None,
                     is_causal: false,
+                    ..Default::default()
                 },
             );
             let attention7_out1 = {
@@ -1154,10 +1168,12 @@ impl Submodule3 {
                 v,
                 None,
                 None,
+                None,
                 burn::tensor::ops::AttentionModuleOptions {
                     scale: Some(0.0883883461356163f64),
                     softcap: None,
                     is_causal: false,
+                    ..Default::default()
                 },
             );
             (attention8_out1,)
@@ -1237,10 +1253,12 @@ impl Submodule3 {
                 v,
                 Some(hide),
                 Some(score_bias),
+                None,
                 burn::tensor::ops::AttentionModuleOptions {
                     scale: Some(0.0883883461356163f64),
                     softcap: None,
                     is_causal: false,
+                    ..Default::default()
                 },
             );
             let attention9_out1 = {
@@ -1566,10 +1584,12 @@ impl Submodule4 {
                 v,
                 None,
                 None,
+                None,
                 burn::tensor::ops::AttentionModuleOptions {
                     scale: Some(0.0883883461356163f64),
                     softcap: None,
                     is_causal: false,
+                    ..Default::default()
                 },
             );
             (attention10_out1,)
@@ -1649,10 +1669,12 @@ impl Submodule4 {
                 v,
                 Some(hide),
                 Some(score_bias),
+                None,
                 burn::tensor::ops::AttentionModuleOptions {
                     scale: Some(0.0883883461356163f64),
                     softcap: None,
                     is_causal: false,
+                    ..Default::default()
                 },
             );
             let attention11_out1 = {
@@ -1684,10 +1706,12 @@ impl Submodule4 {
                 v,
                 None,
                 None,
+                None,
                 burn::tensor::ops::AttentionModuleOptions {
                     scale: Some(0.0883883461356163f64),
                     softcap: None,
                     is_causal: false,
+                    ..Default::default()
                 },
             );
             (attention12_out1,)
@@ -1767,10 +1791,12 @@ impl Submodule4 {
                 v,
                 Some(hide),
                 Some(score_bias),
+                None,
                 burn::tensor::ops::AttentionModuleOptions {
                     scale: Some(0.0883883461356163f64),
                     softcap: None,
                     is_causal: false,
+                    ..Default::default()
                 },
             );
             let attention13_out1 = {
@@ -1802,10 +1828,12 @@ impl Submodule4 {
                 v,
                 None,
                 None,
+                None,
                 burn::tensor::ops::AttentionModuleOptions {
                     scale: Some(0.0883883461356163f64),
                     softcap: None,
                     is_causal: false,
+                    ..Default::default()
                 },
             );
             (attention14_out1,)
@@ -1885,10 +1913,12 @@ impl Submodule4 {
                 v,
                 Some(hide),
                 Some(score_bias),
+                None,
                 burn::tensor::ops::AttentionModuleOptions {
                     scale: Some(0.0883883461356163f64),
                     softcap: None,
                     is_causal: false,
+                    ..Default::default()
                 },
             );
             let attention15_out1 = {
@@ -1920,10 +1950,12 @@ impl Submodule4 {
                 v,
                 None,
                 None,
+                None,
                 burn::tensor::ops::AttentionModuleOptions {
                     scale: Some(0.0883883461356163f64),
                     softcap: None,
                     is_causal: false,
+                    ..Default::default()
                 },
             );
             (attention16_out1,)
